@@ -5,6 +5,7 @@ P. prostredie: Visual Studio 2015 P. jazyk: C# Windows Forms Application
 Form1.Designer.cs - GUI
 
 Interop.cs a WlanApi.cs je potrebné mať ako zvlášť triedy v projekte.
+SharpPcap knižnice je nutné pridať do projektu ako referencie, link - http://sourceforge.net/projects/sharppcap/
 
 Form1.cs funkcie:
 
