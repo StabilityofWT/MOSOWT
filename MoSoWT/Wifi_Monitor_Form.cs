@@ -20,7 +20,7 @@ using SharpPcap.WinPcap;
 
 namespace MoSoWT
 {
-    public partial class Form1 : Form
+    public partial class Wifi_Monitor_Form : Form
     {
         private WlanClient client = new WlanClient();
         private System.Windows.Forms.Timer timer1 = new System.Windows.Forms.Timer();
@@ -35,7 +35,7 @@ namespace MoSoWT
         private static long AllSenPackets = 0;
 
 
-        public Form1()
+        public Wifi_Monitor_Form()
         {
             InitializeComponent();
         }
@@ -68,6 +68,8 @@ namespace MoSoWT
                     {                       
                         String ssid0 = Encoding.ASCII.GetString(network.dot11Ssid.SSID).ToString();
                         String ssid = "";
+
+                        continue;
 
                         for (int i = 0; i < ssid0.Length; i++)
                         {

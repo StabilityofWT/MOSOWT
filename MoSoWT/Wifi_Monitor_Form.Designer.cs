@@ -1,6 +1,6 @@
 ﻿namespace MoSoWT
 {
-    partial class Form1
+    partial class Wifi_Monitor_Form
     {
         /// <summary>
         /// Required designer variable.
