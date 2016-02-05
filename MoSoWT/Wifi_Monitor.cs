@@ -20,7 +20,7 @@ using SharpPcap.WinPcap;
 
 namespace MoSoWT
 {
-    public partial class Wifi_Monitor_Form : Form
+    public partial class Wifi_Monitor : Form
     {
         private WlanClient client = new WlanClient();
         private System.Windows.Forms.Timer timer1 = new System.Windows.Forms.Timer();
@@ -35,7 +35,7 @@ namespace MoSoWT
         private static long AllSenPackets = 0;
 
 
-        public Wifi_Monitor_Form()
+        public Wifi_Monitor()
         {
             InitializeComponent();
         }
@@ -255,5 +255,6 @@ namespace MoSoWT
             }
             CaptBox.Text += "Max packets/s speed: " + maxpps + " \r\n";
         }
+                
     }
 }

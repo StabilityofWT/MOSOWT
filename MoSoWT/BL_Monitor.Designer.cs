@@ -1,6 +1,6 @@
 ﻿namespace MoSoWT
 {
-    partial class BL_Monitor_Form
+    partial class BL_Monitor
     {
         /// <summary>
         /// Required designer variable.

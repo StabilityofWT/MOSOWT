@@ -22,28 +22,28 @@ namespace MoSoWT
 
         private void WiFi_Button_Click(object sender, EventArgs e)
         {
-            WiFi_Button.Enabled = false;
-            Wifi_Monitor = new Wifi_Monitor_Form();
+            WiFi_Monitor_Button.Enabled = false;
+            Wifi_Monitor = new Wifi_Monitor();
             Wifi_Monitor.FormClosing += Wifi_Monitor_FormClosing;
             Wifi_Monitor.Show();
         }
 
         private void Wifi_Monitor_FormClosing(object sender, FormClosingEventArgs e)
         {
-            WiFi_Button.Enabled = true;
+            WiFi_Monitor_Button.Enabled = true;
         }
 
         private void BL_Button_Click(object sender, EventArgs e)
         {
-            BL_Button.Enabled = false;
-            BL_Monitor = new BL_Monitor_Form();
+            BL_Monitor_Button.Enabled = false;
+            BL_Monitor = new BL_Monitor();
             BL_Monitor.FormClosing += BL_Monitor_FormClosing;
             BL_Monitor.Show();
         }
 
         private void BL_Monitor_FormClosing(object sender, FormClosingEventArgs e)
         {
-            BL_Button.Enabled = true;
+            BL_Monitor_Button.Enabled = true;
         }
     }
 }

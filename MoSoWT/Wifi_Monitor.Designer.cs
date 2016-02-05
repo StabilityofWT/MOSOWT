@@ -1,6 +1,6 @@
 ﻿namespace MoSoWT
 {
-    partial class Wifi_Monitor_Form
+    partial class Wifi_Monitor
     {
         /// <summary>
         /// Required designer variable.
@@ -105,7 +105,7 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Wifi_Monitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -118,8 +118,8 @@
             this.Controls.Add(this.Output);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Wifi_Monitor";
+            this.Text = "Wifi_Monitor";
             this.ResumeLayout(false);
             this.PerformLayout();
 

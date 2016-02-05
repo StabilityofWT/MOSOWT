@@ -11,9 +11,9 @@ using System.Net.NetworkInformation;
 
 namespace MoSoWT
 {
-    public partial class BL_Monitor_Form : Form
+    public partial class BL_Monitor : Form
     {
-        public BL_Monitor_Form()
+        public BL_Monitor()
         {
             InitializeComponent();
         }

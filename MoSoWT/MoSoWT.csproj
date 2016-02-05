@@ -56,17 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BL_Monitor_Form.cs">
+    <Compile Include="BL_Monitor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BL_Monitor_Form.Designer.cs">
-      <DependentUpon>BL_Monitor_Form.cs</DependentUpon>
+    <Compile Include="BL_Monitor.Designer.cs">
+      <DependentUpon>BL_Monitor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Wifi_Monitor_Form.cs">
+    <Compile Include="Wifi_Client.cs" />
+    <Compile Include="Wifi_Monitor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Wifi_Monitor_Form.Designer.cs">
-      <DependentUpon>Wifi_Monitor_Form.cs</DependentUpon>
+    <Compile Include="Wifi_Monitor.Designer.cs">
+      <DependentUpon>Wifi_Monitor.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI.cs">
       <SubType>Form</SubType>
@@ -77,15 +78,16 @@
     <Compile Include="Interop.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wifi_Server.cs" />
     <Compile Include="WlanApi.cs" />
-    <EmbeddedResource Include="BL_Monitor_Form.resx">
-      <DependentUpon>BL_Monitor_Form.cs</DependentUpon>
+    <EmbeddedResource Include="BL_Monitor.resx">
+      <DependentUpon>BL_Monitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Wifi_Monitor_Form.resx">
-      <DependentUpon>Wifi_Monitor_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Wifi_Monitor.resx">
+      <DependentUpon>Wifi_Monitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
