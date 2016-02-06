@@ -19,6 +19,7 @@ namespace MoSoWT
 
         private Form Wifi_Monitor;
         private Form BL_Monitor;
+        private Form Wifi_Server;
 
         private void WiFi_Button_Click(object sender, EventArgs e)
         {
@@ -44,6 +45,12 @@ namespace MoSoWT
         private void BL_Monitor_FormClosing(object sender, FormClosingEventArgs e)
         {
             BL_Monitor_Button.Enabled = true;
+        }
+
+        private void Wifi_Send_Server_Button_Click(object sender, EventArgs e)
+        {
+            Wifi_Server = new Wifi_Server();
+            Wifi_Server.Show();
         }
     }
 }

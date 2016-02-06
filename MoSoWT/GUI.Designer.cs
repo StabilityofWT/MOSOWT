@@ -84,6 +84,7 @@
             this.Wifi_Send_Server_Button.TabIndex = 4;
             this.Wifi_Send_Server_Button.Text = "Send File - Server";
             this.Wifi_Send_Server_Button.UseVisualStyleBackColor = true;
+            this.Wifi_Send_Server_Button.Click += new System.EventHandler(this.Wifi_Send_Server_Button_Click);
             // 
             // label1
             // 
